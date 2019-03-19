@@ -8,7 +8,7 @@ server.use(express.json());
 
 server.get('/', (req, res) => {
   res.send(`
-    <h2>Lambda Postts API</h>
+    <h2>Lambda Posts API</h>
     <p>Welcome to the Lambda Posts API</p>
   `);
 });
